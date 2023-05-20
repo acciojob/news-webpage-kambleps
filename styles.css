@@ -10,9 +10,8 @@ body{
 	background-color:#011e29;
 	color:white;
 	height:30px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
+	text-align:center;
+	padding:10px;
 }
 .main div{
 	padding:10px;
@@ -20,16 +19,17 @@ body{
 	margin-top:10px;
 	border-radius:10px;
 }
-.article{
+.latest-news-section{
 	height:100px;
 	text-align:center;
-}.article ul{
+}.latest-news-section ul{
 	display:inline-block;
 	text-align:left;
 }
 .para{
 	width:280px;
 	height:300px;
+	text-align:center;
 }
 .main{
 	display:flex;
@@ -37,12 +37,13 @@ body{
 	margin-left:20px;
 	margin-right:20px;
 }
-.img img{
+.pictorial-news-section img{
 	height:150px;
 	width:200px;
 	margin:5px;
 }
-.img{
+.pictorial-news-section{
+	text-align:center;
 	display:flex; 
 	flex-flow:column;
 }
